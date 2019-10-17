@@ -1,6 +1,6 @@
 parameters:
   nugetVersion: 4.9.3  # Min version must be 4.7.1
-  dotNetCoreVersion: '3.0.x'
+  dotNetCoreVersion: '2.2.x'
 
 steps:
   - task: GitVersion@4

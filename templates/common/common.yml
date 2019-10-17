@@ -8,10 +8,10 @@ steps:
     inputs:
       preferBundledVersion: false
 
-  - task: NuGetToolInstaller@0
-    displayName: 'Use NuGet ${{ parameters.nugetVersion }}'
-    inputs:
-      versionSpec: ${{ parameters.nugetVersion }}
+  # - task: NuGetToolInstaller@0
+  #   displayName: 'Use NuGet ${{ parameters.nugetVersion }}'
+  #   inputs:
+  #     versionSpec: ${{ parameters.nugetVersion }}
 
   - task: UseDotNet@2
     displayName: 'Use .NET Core sdk ${{ parameters.dotNetCoreVersion }}'

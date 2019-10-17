@@ -1,5 +1,5 @@
 parameters:
-  pool: 'windows-2019'
+  pool: 'win1803'
   cleanCheckout: 'false'
   buildConfiguration: 'Release'
   sonarCloudProjectKey: ''

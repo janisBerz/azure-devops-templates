@@ -10,7 +10,8 @@ parameters:
 jobs:
 - job:
   displayName: 'Build & Test .Net Core Console app'
-  pool: ${{ parameters.pool }}
+  pool:
+    vmImage: ${{ parameters.pool }}
 
   # Reference templae for setting up build tools
   steps:

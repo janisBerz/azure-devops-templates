@@ -8,8 +8,6 @@ steps:
     inputs:
       command: restore
       projects: '**/*.sln'
-      vstsFeed: '${{ parameters.vstsFeedId }}'
-      includeNuGetOrg: false
 
   - task: DotNetCoreCLI@2
     displayName: Build
